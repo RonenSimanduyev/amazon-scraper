@@ -6,9 +6,9 @@ from time import time
 from typing import List
 from urllib.parse import urlencode
 import numpy as np
+from keys import scrapper_api_key
 
-
-api_key = '32f7ce8c6b164aff90a2c1aa54b1c14c'
+api_key = scrapper_api_key
 amazon_url = 'https://www.amazon.com'
 
 

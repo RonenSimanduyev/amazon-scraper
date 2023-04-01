@@ -14,12 +14,12 @@ from urllib.parse import urlencode
 from scrapper import scrape_amazon_link_and_get_reviews
 import numpy as np
 from time import sleep
-
-
+from key improt openai_key
+from keys import scrapper_api_key
 link='https://www.amazon.com/-/he/Everlast-%D7%A1%D7%98-%D7%97%D7%9C%D7%A7%D7%99%D7%9D-%D7%AA%D7%99%D7%A7-%D7%9E%D7%94%D7%99%D7%A8%D7%95%D7%AA/dp/B00005R2GR/ref=sr_1_4?crid=JH9TT2VXTZ03&keywords=speed+bag+platform&qid=1675947389&refinements=p_36%3A1253557011&rnid=386589011&s=sporting-goods&sprefix=speed+bag+platform+%2Caps%2C311&sr=1-4'
-api_key = '32f7ce8c6b164aff90a2c1aa54b1c14c'
+api_key = scrapper_api_key
 amazon_url = 'https://www.amazon.com'
-openai.api_key = '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'
+openai.api_key = openai_key
 app = FastAPI()
 
 
